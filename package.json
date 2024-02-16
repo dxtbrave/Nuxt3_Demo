@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "homepage": "https://dxtbrave.github.io/Nuxt3_Demo",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@css-render/vue3-ssr": "^0.15.12",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "naive-ui": "^2.37.3",
+    "nuxt": "^3.10.1",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  }
+}
