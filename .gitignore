@@ -2,7 +2,6 @@
 .output
 .data
 .nuxt
-.github
 .nitro
 .cache
 dist
