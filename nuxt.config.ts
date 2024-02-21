@@ -1,6 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    buildAssetsDir: "/static/",
+  },
   devtools: { enabled: false },
+  ssr: false,
   css: ["@/assets/style/layout.less"],
   build: {
     transpile:
@@ -21,4 +25,5 @@ export default defineNuxtConfig({
           : [],
     },
   },
+  plugins: [],
 });
